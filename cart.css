@@ -1,0 +1,110 @@
+.z{
+
+	display: grid;
+	column-gap: 20px;
+	grid-template-columns: 170px 100px 100px auto;
+	background-color: lightblue;
+	padding : 8px;
+	border: solid;
+	border-radius: 30px;
+}
+.za{
+	position: relative;
+	left : 10px;
+}
+button{
+	padding : 10px;
+}
+.zba{
+	position : relative;
+	top : 20px;
+	left : 3px;
+	background-color: pink;
+	border: none;
+	border-radius: 50px;
+}
+
+.y{
+	margin : 10px;
+	border: solid;
+	border-radius: 30px;
+	background-color: lightblue;
+	animation-name : ani1;
+	animation-delay: 0.2s;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+.y div{
+	margin : 10px;
+	border-radius: 20px;
+	text-align: center;
+	border: solid;
+	height : 50px;
+	width: 200px;
+	align-content: center;
+	font-weight: bold;
+}
+.y{
+	display: grid;
+	grid-template-columns: 250px auto ;
+	justify-content: center;
+}
+.btn2{
+	border : solid;
+	margin : 20px;
+	width : 97%;
+	border-radius: 30px;
+}
+.zbcd{
+	font-family: courier;
+	width : 350px;
+}
+.y div:nth-child(3) {
+	border-color: red;
+	color : blue;
+	font-weight : bold;
+	font-size: 30px;
+	align-content: center;
+	font-family: courier;
+}
+.y div:nth-child(4) {
+	border-color: red;
+	font-weight: bold;
+	color : blue;
+	font-size : 30px;
+	align-content: center;
+	font-family: courier;
+}
+.y div:nth-child(11) {
+	border-color: red;
+	font-weight: bold;
+	color : blue;
+	font-size: 30px;
+	align-content: center;
+	font-family: courier;
+}
+.y div:nth-child(12) {
+	border-color: red;
+	font-weight: bold;
+	font-size: 30px;
+	color : blue;
+	align-content: center;
+	font-family: courier;
+}
+.y div:hover{
+	border-color: red;
+	font-weight: bold;
+	font-size: 30px;
+	color : red;
+	align-content: center;
+	font-family: courier;
+	padding : 10px;	
+}
+@keyframes ani1{
+	from{
+		background-color: lightblue;
+	}
+	to{
+		background-color: lightyellow;
+	}
+}
